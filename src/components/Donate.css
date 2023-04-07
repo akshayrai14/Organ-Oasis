@@ -1,0 +1,85 @@
+.donate-page{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/donate_an_organ.svg);
+    background-size: 834px;
+    background-color: #e3dddd;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.donate-div{
+    min-height: 400px;
+    min-width: 800px;
+    background: #a0a0a014;
+    position: relative;
+    /* top: 70px; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+    align-items: flex-start;
+    border-radius: 25px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 11px rgba(0,0,0,0.3);
+    flex-direction: column;
+}
+.donate-contain{
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+}
+.donate{
+    width: 100%;
+}
+.btn-down>button{
+    padding: 8px;
+    /* background-color: #000000f2; */
+    background-color: #292828;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    min-width: 53px;
+    cursor: pointer;
+    box-shadow: 0 0 11px rgb(0 0 0 / 60%);
+    backdrop-filter: blur(5px);
+}
+.organ-name{
+    font-style: normal;
+    /* font-size: medium; */
+    font-weight: 21;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.donate>hr{
+    margin-top: 15px;
+    color: grey;
+    width:100%;
+}
+.patient-name{
+    text-transform: capitalize;
+    color: grey;
+    margin-top: 4px;
+    font-weight: lighter;
+}
+.blood-group{
+    text-transform: capitalize;
+    color: grey;
+    margin-top: 4px;
+    font-weight: lighter;
+}
+h2{
+    margin-bottom: 25px;
+}
+.btn-down{
+    margin-bottom: 25px;
+}
